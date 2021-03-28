@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BKPMWeek3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#3E59B7</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">#3E59B7</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

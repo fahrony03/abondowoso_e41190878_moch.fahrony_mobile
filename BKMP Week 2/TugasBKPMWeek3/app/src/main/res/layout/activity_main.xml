@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/dashboard"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_span="2"
+            android:text="@string/login"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_span="2"
+            android:text="@string/in"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_linear_layout"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_1"
+                android:textSize="40sp"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linear_layout"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_2"
+                android:textSize="40sp"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/relative_layout"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_3"
+                android:textSize="40sp"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linear_layout"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_4"
+                android:textSize="40sp"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frame_layout"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_5"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/table_layout"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_6"
+                android:textSize="40sp"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/material_design"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_7"
+                android:textSize="40sp"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scroll_view"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center|top"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_8"
+                android:textSize="40sp"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/scroll_view_horizontal"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+    </TableRow>
+
+</TableLayout>
